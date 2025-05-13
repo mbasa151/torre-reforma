@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo en AR</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <style>
+      body { margin: 0; }
+      model-viewer { width: 100vw; height: 100vh; }
+    </style>
+  </head>
+  <body>
+    <model-viewer 
+      src="torre reforma 4.glb"                
+      ios-src="torre reforma 4.usdz"         
+      ar
+      ar-modes="scene-viewer quick-look webxr"
+      camera-controls
+      auto-rotate
+      alt="Mi modelo en AR">
+    </model-viewer>
+  </body>
+</html>
